@@ -13,7 +13,7 @@
     "lint": "eslint \"src/**/*.ts\" --max-warnings=0"
   },
   "dependencies": {
-    "@types/socket.io": "^3.0.1",
+    "@types/socket.io": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
@@ -29,14 +29,16 @@
     "@types/morgan": "^1.9.7",
     "@types/node": "^20.13.2",
     "@types/supertest": "^2.0.16",
-    "@typescript-eslint/eslint-plugin": "^7.13.0",
-    "@typescript-eslint/parser": "^7.13.0",
-    "eslint": "^9.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.0",
+    "@typescript-eslint/parser": "^8.46.0",
+    "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
     "socket.io-client": "^4.8.1",
     "supertest": "^6.3.4",
     "tsx": "^4.7.1",
     "typescript": "^5.4.5",
-    "vitest": "^1.6.1"
+    "vitest": "^3.2.4"
   }
 }
